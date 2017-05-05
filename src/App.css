@@ -1,0 +1,43 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #373c3a;
+  font-family: Baskerville, Palatino, serif;
+  letter-spacing: -0.1vmin;
+}
+
+.App__icon {
+  fill: #373c3a;
+  margin-bottom: 4vmin;
+}
+
+.App__link {
+  text-decoration: none;
+  color: #373c3a;
+  margin: 0 2.5vmin;
+  letter-spacing: 0.1vmin;
+}
+
+@media screen and (orientation:portrait) {
+  .App__icon {
+    width: 20vmin;
+  }
+
+  .App__links {
+    font-size: 3.4vmin;
+  }
+}
+
+@media screen and (orientation:landscape) {
+  .App__icon {
+    width: 10vmin;
+  }
+
+  .App__links {
+    font-size: 2.2vmin;
+  }
+}
