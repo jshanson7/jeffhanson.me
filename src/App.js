@@ -18,7 +18,7 @@ export default function App() {
         <Link href='https://github.com/jshanson7'>github</Link>
         <Link href='https://www.linkedin.com/in/jeff-hanson-24b83522/'>linkedin</Link>
         <Link href={`${PUBLIC_URL}/resume.pdf`}>resume</Link>
-        <Link href='https://www.smartyplantsapp.com/'>smartyplants</Link>
+        <Link href='https://www.smartyplantsapp.com/'>latest project</Link>
       </div>
     </div>
   );
