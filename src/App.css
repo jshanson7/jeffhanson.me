@@ -25,6 +25,7 @@
 @media screen and (orientation:portrait) {
   .App__icon {
     width: 20vmin;
+    height: 25.2vmin;
   }
 
   .App__links {
@@ -35,6 +36,7 @@
 @media screen and (orientation:landscape) {
   .App__icon {
     width: 10vmin;
+    height: 12.6vmin;
   }
 
   .App__links {
