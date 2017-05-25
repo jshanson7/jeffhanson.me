@@ -4,6 +4,7 @@
 
 ```sh
 git clone git@github.com:jshanson7/jeffhanson.me.git
+cd jeffhanson.me
 yarn install
 yarn start
 ```
